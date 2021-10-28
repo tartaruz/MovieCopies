@@ -34,6 +34,6 @@ def findSimilarMovie(movie):
     print(res[:10])
 
 
-memento = vect.transform(findMovie("Child's Play")["overview"])
+memento = vect.transform(findMovie("Memento")["overview"])
 
 findSimilarMovie(memento)
