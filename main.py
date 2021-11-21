@@ -97,7 +97,7 @@ def get_twin_films():
     return twins_list
 
 if __name__ == "__main__":
-    Test Twin Movies
+    #Test Twin Movies
     print(f"Length of Twin Movies: {len(get_twin_films())}")
     for movies in get_twin_films():
         print("----------------------------------------------------------------------------------|")
